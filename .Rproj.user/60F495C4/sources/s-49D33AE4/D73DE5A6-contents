@@ -2,7 +2,9 @@
 title: "Chapter 1"
 author: "Kamarul Imran Musa"
 date: "8/25/2018"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -10,6 +12,9 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 # Intro
+
+Setting -> Output Options -> Advanced -> Keep markdown file
+
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
