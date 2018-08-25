@@ -1,0 +1,22 @@
+---
+title: "my RMarkdown template to write a book"
+author: "Kamarul Imran Musa"
+date: "8/25/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# start with one # hashtag
+
+This is the chapter
+
+## create a `index.Rmd` file
+
+```{r}
+library(tidyverse)
+mtcars %>% ggplot(aes(mpg)) + geom_histogram()
+```
+
