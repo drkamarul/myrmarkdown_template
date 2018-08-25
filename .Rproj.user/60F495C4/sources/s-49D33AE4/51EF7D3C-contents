@@ -2,7 +2,9 @@
 title: "my RMarkdown template to write a book"
 author: "Kamarul Imran Musa"
 date: "8/25/2018"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -12,6 +14,11 @@ knitr::opts_chunk$set(echo = TRUE)
 # start with one # hashtag
 
 This is the chapter
+
+## prerequisite
+
+Setting -> Output Option -> Keep markdown file
+
 
 ## create a `index.Rmd` file
 
